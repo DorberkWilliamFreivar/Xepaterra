@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build Raylib C++",
+            "command": "C:\\raylib\\w64devkit\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}\\src\\*.cpp",
+                // "${workspaceFolder}\\lib\\imgui-master\\*.cpp",
+                // "${workspaceFolder}\\lib\\rlImGui-main\\*.cpp",
+                "-o",
+                "${workspaceFolder}\\NewGenesis.exe",
+                
+                "-I", "C:\\raylib\\raylib\\src",
+                "-I", "${workspaceFolder}\\lib\\imgui-master",
+                "-I", "${workspaceFolder}\\lib\\rlImGui-main",
+                "-L", "C:\\raylib\\raylib\\src",
+                
+                "-lraylib",
+                "-lopengl32",
+                "-lgdi32",
+                "-lwinmm",
+                "-mwindows"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Task rahasia kita buat jalanin Raylib"
+        }
+    ]
+}

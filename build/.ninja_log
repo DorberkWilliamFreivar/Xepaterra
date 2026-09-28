@@ -1,0 +1,12 @@
+# ninja log v7
+7	274	8118780450596588	CMakeFiles/NewGenesis.dir/src/biomes/b1_forest.cpp.obj	e67b4921dfb42483
+24	363	8118780450774579	CMakeFiles/NewGenesis.dir/src/entities/wolf.cpp.obj	48fdf05955eaa66a
+15	402	8118780450680189	CMakeFiles/NewGenesis.dir/src/entities/sheep.cpp.obj	9b6905d8854b7d72
+123	2033	8118780451761775	CMakeFiles/NewGenesis.dir/lib/rlImGui-main/rlImGui.cpp.obj	2fdd2e6816d5e736
+34	2953	8118780450869865	CMakeFiles/NewGenesis.dir/src/main.cpp.obj	1cb4a7d550035148
+61	4406	8118780451137690	CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_demo.cpp.obj	117f7aa84e0df704
+94	4769	8118780451474585	CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_tables.cpp.obj	f132ea8c46ee39b2
+75	6023	8118780451283629	CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_draw.cpp.obj	c8551cfde6a87907
+111	6257	8118780451640686	CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_widgets.cpp.obj	3aaba4f1798cf0cc
+47	7436	8118780451002002	CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui.cpp.obj	9765600255e993f
+7437	7966	8118780524897619	NewGenesis.exe	80eeeab696fee52b

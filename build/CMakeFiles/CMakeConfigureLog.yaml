@@ -1,0 +1,2740 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/ninja-build.com"
+      - "C:/raylib/w64devkit/bin/ninja-build.exe"
+      - "C:/raylib/w64devkit/bin/ninja-build"
+      - "C:/raylib/w64devkit/bin/ninja.com"
+    found: "C:/raylib/w64devkit/bin/ninja.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/"
+    found: "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: c:/raylib/w64devkit/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/Project Code/CPP/Xepaterra/build/CMakeFiles/4.3.1/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/ar.com"
+    found: "C:/raylib/w64devkit/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/ranlib.com"
+    found: "C:/raylib/w64devkit/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/strip.com"
+    found: "C:/raylib/w64devkit/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/ld.com"
+    found: "C:/raylib/w64devkit/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/nm.com"
+    found: "C:/raylib/w64devkit/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/objdump.com"
+    found: "C:/raylib/w64devkit/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/objcopy.com"
+    found: "C:/raylib/w64devkit/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/readelf.com"
+      - "c:/raylib/w64devkit/bin/readelf.exe"
+      - "c:/raylib/w64devkit/bin/readelf"
+      - "C:/raylib/w64devkit/bin/readelf.com"
+      - "C:/raylib/w64devkit/bin/readelf.exe"
+      - "C:/raylib/w64devkit/bin/readelf"
+      - "C:/Windows/System32/readelf.com"
+      - "C:/Windows/System32/readelf.exe"
+      - "C:/Windows/System32/readelf"
+      - "C:/Windows/readelf.com"
+      - "C:/Windows/readelf.exe"
+      - "C:/Windows/readelf"
+      - "C:/Windows/System32/wbem/readelf.com"
+      - "C:/Windows/System32/wbem/readelf.exe"
+      - "C:/Windows/System32/wbem/readelf"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf"
+      - "C:/Windows/System32/OpenSSH/readelf.com"
+      - "C:/Windows/System32/OpenSSH/readelf.exe"
+      - "C:/Windows/System32/OpenSSH/readelf"
+      - "C:/Program Files/nodejs/readelf.com"
+      - "C:/Program Files/nodejs/readelf.exe"
+      - "C:/Program Files/nodejs/readelf"
+      - "C:/Program Files/Git/cmd/readelf.com"
+      - "C:/Program Files/Git/cmd/readelf.exe"
+      - "C:/Program Files/Git/cmd/readelf"
+      - "C:/Program Files/Java/jdk-24/bin/readelf.com"
+      - "C:/Program Files/Java/jdk-24/bin/readelf.exe"
+      - "C:/Program Files/Java/jdk-24/bin/readelf"
+      - "C:/Program Files/Docker/Docker/resources/bin/readelf.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/readelf.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/readelf"
+      - "C:/ffmpeg/bin/readelf.com"
+      - "C:/ffmpeg/bin/readelf.exe"
+      - "C:/ffmpeg/bin/readelf"
+      - "C:/Program Files/dotnet/readelf.com"
+      - "C:/Program Files/dotnet/readelf.exe"
+      - "C:/Program Files/dotnet/readelf"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/readelf.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/readelf.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/readelf"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/readelf.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/readelf.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/readelf"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/readelf.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/readelf.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/readelf"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/readelf.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/readelf.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/readelf"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/readelf.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/readelf.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/readelf"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/readelf.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/readelf.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/readelf"
+      - "C:/Users/Asus/AppData/Roaming/npm/readelf.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/readelf.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/readelf"
+      - "C:/MinGW/bin/readelf.com"
+    found: "C:/MinGW/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/dlltool.com"
+    found: "C:/raylib/w64devkit/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/addr2line.com"
+    found: "C:/raylib/w64devkit/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/tapi.com"
+      - "c:/raylib/w64devkit/bin/tapi.exe"
+      - "c:/raylib/w64devkit/bin/tapi"
+      - "C:/raylib/w64devkit/bin/tapi.com"
+      - "C:/raylib/w64devkit/bin/tapi.exe"
+      - "C:/raylib/w64devkit/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files/Java/jdk-24/bin/tapi.com"
+      - "C:/Program Files/Java/jdk-24/bin/tapi.exe"
+      - "C:/Program Files/Java/jdk-24/bin/tapi"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi"
+      - "C:/ffmpeg/bin/tapi.com"
+      - "C:/ffmpeg/bin/tapi.exe"
+      - "C:/ffmpeg/bin/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/tapi.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/tapi.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/tapi"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/tapi.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/tapi.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/tapi"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/tapi.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/tapi.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/tapi"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/tapi.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/tapi.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/tapi"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/Asus/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/tapi"
+      - "C:/MinGW/bin/tapi.com"
+      - "C:/MinGW/bin/tapi.exe"
+      - "C:/MinGW/bin/tapi"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/tapi.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/tapi.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/gcc-ar-15.2.com"
+      - "c:/raylib/w64devkit/bin/gcc-ar-15.2.exe"
+      - "c:/raylib/w64devkit/bin/gcc-ar-15.2"
+      - "C:/raylib/w64devkit/bin/gcc-ar-15.2.com"
+      - "C:/raylib/w64devkit/bin/gcc-ar-15.2.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ar-15.2"
+      - "C:/Windows/System32/gcc-ar-15.2.com"
+      - "C:/Windows/System32/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/gcc-ar-15.2"
+      - "C:/Windows/gcc-ar-15.2.com"
+      - "C:/Windows/gcc-ar-15.2.exe"
+      - "C:/Windows/gcc-ar-15.2"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2"
+      - "C:/Program Files/nodejs/gcc-ar-15.2.com"
+      - "C:/Program Files/nodejs/gcc-ar-15.2.exe"
+      - "C:/Program Files/nodejs/gcc-ar-15.2"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.2"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar-15.2"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-15.2"
+      - "C:/ffmpeg/bin/gcc-ar-15.2.com"
+      - "C:/ffmpeg/bin/gcc-ar-15.2.exe"
+      - "C:/ffmpeg/bin/gcc-ar-15.2"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar-15.2"
+      - "C:/MinGW/bin/gcc-ar-15.2.com"
+      - "C:/MinGW/bin/gcc-ar-15.2.exe"
+      - "C:/MinGW/bin/gcc-ar-15.2"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar-15.2"
+      - "c:/raylib/w64devkit/bin/gcc-ar-15.com"
+      - "c:/raylib/w64devkit/bin/gcc-ar-15.exe"
+      - "c:/raylib/w64devkit/bin/gcc-ar-15"
+      - "C:/raylib/w64devkit/bin/gcc-ar-15.com"
+      - "C:/raylib/w64devkit/bin/gcc-ar-15.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ar-15"
+      - "C:/Windows/System32/gcc-ar-15.com"
+      - "C:/Windows/System32/gcc-ar-15.exe"
+      - "C:/Windows/System32/gcc-ar-15"
+      - "C:/Windows/gcc-ar-15.com"
+      - "C:/Windows/gcc-ar-15.exe"
+      - "C:/Windows/gcc-ar-15"
+      - "C:/Windows/System32/wbem/gcc-ar-15.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "C:/Program Files/nodejs/gcc-ar-15.com"
+      - "C:/Program Files/nodejs/gcc-ar-15.exe"
+      - "C:/Program Files/nodejs/gcc-ar-15"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-15"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar-15.com"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar-15.exe"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar-15"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-15.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-15.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-15"
+      - "C:/ffmpeg/bin/gcc-ar-15.com"
+      - "C:/ffmpeg/bin/gcc-ar-15.exe"
+      - "C:/ffmpeg/bin/gcc-ar-15"
+      - "C:/Program Files/dotnet/gcc-ar-15.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar-15"
+      - "C:/MinGW/bin/gcc-ar-15.com"
+      - "C:/MinGW/bin/gcc-ar-15.exe"
+      - "C:/MinGW/bin/gcc-ar-15"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar-15.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar-15.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar-15"
+      - "c:/raylib/w64devkit/bin/gcc-ar15.com"
+      - "c:/raylib/w64devkit/bin/gcc-ar15.exe"
+      - "c:/raylib/w64devkit/bin/gcc-ar15"
+      - "C:/raylib/w64devkit/bin/gcc-ar15.com"
+      - "C:/raylib/w64devkit/bin/gcc-ar15.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ar15"
+      - "C:/Windows/System32/gcc-ar15.com"
+      - "C:/Windows/System32/gcc-ar15.exe"
+      - "C:/Windows/System32/gcc-ar15"
+      - "C:/Windows/gcc-ar15.com"
+      - "C:/Windows/gcc-ar15.exe"
+      - "C:/Windows/gcc-ar15"
+      - "C:/Windows/System32/wbem/gcc-ar15.com"
+      - "C:/Windows/System32/wbem/gcc-ar15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "C:/Program Files/nodejs/gcc-ar15.com"
+      - "C:/Program Files/nodejs/gcc-ar15.exe"
+      - "C:/Program Files/nodejs/gcc-ar15"
+      - "C:/Program Files/Git/cmd/gcc-ar15.com"
+      - "C:/Program Files/Git/cmd/gcc-ar15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar15"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar15.com"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar15.exe"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar15"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar15.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar15.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar15"
+      - "C:/ffmpeg/bin/gcc-ar15.com"
+      - "C:/ffmpeg/bin/gcc-ar15.exe"
+      - "C:/ffmpeg/bin/gcc-ar15"
+      - "C:/Program Files/dotnet/gcc-ar15.com"
+      - "C:/Program Files/dotnet/gcc-ar15.exe"
+      - "C:/Program Files/dotnet/gcc-ar15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar15"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar15"
+      - "C:/MinGW/bin/gcc-ar15.com"
+      - "C:/MinGW/bin/gcc-ar15.exe"
+      - "C:/MinGW/bin/gcc-ar15"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar15.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar15.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar15"
+      - "c:/raylib/w64devkit/bin/gcc-ar.com"
+    found: "C:/raylib/w64devkit/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/gcc-ranlib-15.2.com"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib-15.2.exe"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib-15.2"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-15.2.com"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-15.2.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-15.2"
+      - "C:/Windows/System32/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/gcc-ranlib-15.2"
+      - "C:/Windows/gcc-ranlib-15.2.com"
+      - "C:/Windows/gcc-ranlib-15.2.exe"
+      - "C:/Windows/gcc-ranlib-15.2"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.2.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.2"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.2"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib-15.2"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-15.2"
+      - "C:/ffmpeg/bin/gcc-ranlib-15.2.com"
+      - "C:/ffmpeg/bin/gcc-ranlib-15.2.exe"
+      - "C:/ffmpeg/bin/gcc-ranlib-15.2"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib-15.2"
+      - "C:/MinGW/bin/gcc-ranlib-15.2.com"
+      - "C:/MinGW/bin/gcc-ranlib-15.2.exe"
+      - "C:/MinGW/bin/gcc-ranlib-15.2"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib-15.2"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib-15.com"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib-15.exe"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib-15"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-15.com"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-15.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-15"
+      - "C:/Windows/System32/gcc-ranlib-15.com"
+      - "C:/Windows/System32/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/gcc-ranlib-15"
+      - "C:/Windows/gcc-ranlib-15.com"
+      - "C:/Windows/gcc-ranlib-15.exe"
+      - "C:/Windows/gcc-ranlib-15"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-15"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib-15"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-15"
+      - "C:/ffmpeg/bin/gcc-ranlib-15.com"
+      - "C:/ffmpeg/bin/gcc-ranlib-15.exe"
+      - "C:/ffmpeg/bin/gcc-ranlib-15"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib-15"
+      - "C:/MinGW/bin/gcc-ranlib-15.com"
+      - "C:/MinGW/bin/gcc-ranlib-15.exe"
+      - "C:/MinGW/bin/gcc-ranlib-15"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib-15"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib15.com"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib15.exe"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib15"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib15.com"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib15.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib15"
+      - "C:/Windows/System32/gcc-ranlib15.com"
+      - "C:/Windows/System32/gcc-ranlib15.exe"
+      - "C:/Windows/System32/gcc-ranlib15"
+      - "C:/Windows/gcc-ranlib15.com"
+      - "C:/Windows/gcc-ranlib15.exe"
+      - "C:/Windows/gcc-ranlib15"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "C:/Program Files/nodejs/gcc-ranlib15.com"
+      - "C:/Program Files/nodejs/gcc-ranlib15.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib15"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib15.com"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib15"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib15.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib15"
+      - "C:/ffmpeg/bin/gcc-ranlib15.com"
+      - "C:/ffmpeg/bin/gcc-ranlib15.exe"
+      - "C:/ffmpeg/bin/gcc-ranlib15"
+      - "C:/Program Files/dotnet/gcc-ranlib15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib15"
+      - "C:/MinGW/bin/gcc-ranlib15.com"
+      - "C:/MinGW/bin/gcc-ranlib15.exe"
+      - "C:/MinGW/bin/gcc-ranlib15"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib15.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib15"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib.com"
+    found: "C:/raylib/w64devkit/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/"
+    found: "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: c:/raylib/w64devkit/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/Project Code/CPP/Xepaterra/build/CMakeFiles/4.3.1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/gcc-ar-15.2.com"
+      - "c:/raylib/w64devkit/bin/gcc-ar-15.2.exe"
+      - "c:/raylib/w64devkit/bin/gcc-ar-15.2"
+      - "C:/raylib/w64devkit/bin/gcc-ar-15.2.com"
+      - "C:/raylib/w64devkit/bin/gcc-ar-15.2.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ar-15.2"
+      - "C:/Windows/System32/gcc-ar-15.2.com"
+      - "C:/Windows/System32/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/gcc-ar-15.2"
+      - "C:/Windows/gcc-ar-15.2.com"
+      - "C:/Windows/gcc-ar-15.2.exe"
+      - "C:/Windows/gcc-ar-15.2"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2"
+      - "C:/Program Files/nodejs/gcc-ar-15.2.com"
+      - "C:/Program Files/nodejs/gcc-ar-15.2.exe"
+      - "C:/Program Files/nodejs/gcc-ar-15.2"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.2"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar-15.2"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-15.2"
+      - "C:/ffmpeg/bin/gcc-ar-15.2.com"
+      - "C:/ffmpeg/bin/gcc-ar-15.2.exe"
+      - "C:/ffmpeg/bin/gcc-ar-15.2"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar-15.2.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar-15.2.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar-15.2"
+      - "C:/MinGW/bin/gcc-ar-15.2.com"
+      - "C:/MinGW/bin/gcc-ar-15.2.exe"
+      - "C:/MinGW/bin/gcc-ar-15.2"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar-15.2"
+      - "c:/raylib/w64devkit/bin/gcc-ar-15.com"
+      - "c:/raylib/w64devkit/bin/gcc-ar-15.exe"
+      - "c:/raylib/w64devkit/bin/gcc-ar-15"
+      - "C:/raylib/w64devkit/bin/gcc-ar-15.com"
+      - "C:/raylib/w64devkit/bin/gcc-ar-15.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ar-15"
+      - "C:/Windows/System32/gcc-ar-15.com"
+      - "C:/Windows/System32/gcc-ar-15.exe"
+      - "C:/Windows/System32/gcc-ar-15"
+      - "C:/Windows/gcc-ar-15.com"
+      - "C:/Windows/gcc-ar-15.exe"
+      - "C:/Windows/gcc-ar-15"
+      - "C:/Windows/System32/wbem/gcc-ar-15.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "C:/Program Files/nodejs/gcc-ar-15.com"
+      - "C:/Program Files/nodejs/gcc-ar-15.exe"
+      - "C:/Program Files/nodejs/gcc-ar-15"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-15"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar-15.com"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar-15.exe"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar-15"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-15.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-15.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-15"
+      - "C:/ffmpeg/bin/gcc-ar-15.com"
+      - "C:/ffmpeg/bin/gcc-ar-15.exe"
+      - "C:/ffmpeg/bin/gcc-ar-15"
+      - "C:/Program Files/dotnet/gcc-ar-15.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar-15.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar-15.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar-15"
+      - "C:/MinGW/bin/gcc-ar-15.com"
+      - "C:/MinGW/bin/gcc-ar-15.exe"
+      - "C:/MinGW/bin/gcc-ar-15"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar-15.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar-15.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar-15"
+      - "c:/raylib/w64devkit/bin/gcc-ar15.com"
+      - "c:/raylib/w64devkit/bin/gcc-ar15.exe"
+      - "c:/raylib/w64devkit/bin/gcc-ar15"
+      - "C:/raylib/w64devkit/bin/gcc-ar15.com"
+      - "C:/raylib/w64devkit/bin/gcc-ar15.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ar15"
+      - "C:/Windows/System32/gcc-ar15.com"
+      - "C:/Windows/System32/gcc-ar15.exe"
+      - "C:/Windows/System32/gcc-ar15"
+      - "C:/Windows/gcc-ar15.com"
+      - "C:/Windows/gcc-ar15.exe"
+      - "C:/Windows/gcc-ar15"
+      - "C:/Windows/System32/wbem/gcc-ar15.com"
+      - "C:/Windows/System32/wbem/gcc-ar15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "C:/Program Files/nodejs/gcc-ar15.com"
+      - "C:/Program Files/nodejs/gcc-ar15.exe"
+      - "C:/Program Files/nodejs/gcc-ar15"
+      - "C:/Program Files/Git/cmd/gcc-ar15.com"
+      - "C:/Program Files/Git/cmd/gcc-ar15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar15"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar15.com"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar15.exe"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ar15"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar15.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar15.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar15"
+      - "C:/ffmpeg/bin/gcc-ar15.com"
+      - "C:/ffmpeg/bin/gcc-ar15.exe"
+      - "C:/ffmpeg/bin/gcc-ar15"
+      - "C:/Program Files/dotnet/gcc-ar15.com"
+      - "C:/Program Files/dotnet/gcc-ar15.exe"
+      - "C:/Program Files/dotnet/gcc-ar15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ar15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ar15"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar15.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar15.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ar15"
+      - "C:/MinGW/bin/gcc-ar15.com"
+      - "C:/MinGW/bin/gcc-ar15.exe"
+      - "C:/MinGW/bin/gcc-ar15"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar15.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar15.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ar15"
+      - "c:/raylib/w64devkit/bin/gcc-ar.com"
+    found: "C:/raylib/w64devkit/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "c:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+    searched_directories:
+      - "c:/raylib/w64devkit/bin/gcc-ranlib-15.2.com"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib-15.2.exe"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib-15.2"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-15.2.com"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-15.2.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-15.2"
+      - "C:/Windows/System32/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/gcc-ranlib-15.2"
+      - "C:/Windows/gcc-ranlib-15.2.com"
+      - "C:/Windows/gcc-ranlib-15.2.exe"
+      - "C:/Windows/gcc-ranlib-15.2"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.2.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.2"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.2"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib-15.2"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-15.2"
+      - "C:/ffmpeg/bin/gcc-ranlib-15.2.com"
+      - "C:/ffmpeg/bin/gcc-ranlib-15.2.exe"
+      - "C:/ffmpeg/bin/gcc-ranlib-15.2"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib-15.2.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib-15.2.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib-15.2"
+      - "C:/MinGW/bin/gcc-ranlib-15.2.com"
+      - "C:/MinGW/bin/gcc-ranlib-15.2.exe"
+      - "C:/MinGW/bin/gcc-ranlib-15.2"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib-15.2"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib-15.com"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib-15.exe"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib-15"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-15.com"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-15.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib-15"
+      - "C:/Windows/System32/gcc-ranlib-15.com"
+      - "C:/Windows/System32/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/gcc-ranlib-15"
+      - "C:/Windows/gcc-ranlib-15.com"
+      - "C:/Windows/gcc-ranlib-15.exe"
+      - "C:/Windows/gcc-ranlib-15"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-15"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib-15"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-15"
+      - "C:/ffmpeg/bin/gcc-ranlib-15.com"
+      - "C:/ffmpeg/bin/gcc-ranlib-15.exe"
+      - "C:/ffmpeg/bin/gcc-ranlib-15"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib-15.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib-15.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib-15"
+      - "C:/MinGW/bin/gcc-ranlib-15.com"
+      - "C:/MinGW/bin/gcc-ranlib-15.exe"
+      - "C:/MinGW/bin/gcc-ranlib-15"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib-15"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib15.com"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib15.exe"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib15"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib15.com"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib15.exe"
+      - "C:/raylib/w64devkit/bin/gcc-ranlib15"
+      - "C:/Windows/System32/gcc-ranlib15.com"
+      - "C:/Windows/System32/gcc-ranlib15.exe"
+      - "C:/Windows/System32/gcc-ranlib15"
+      - "C:/Windows/gcc-ranlib15.com"
+      - "C:/Windows/gcc-ranlib15.exe"
+      - "C:/Windows/gcc-ranlib15"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "C:/Program Files/nodejs/gcc-ranlib15.com"
+      - "C:/Program Files/nodejs/gcc-ranlib15.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib15"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib15.com"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/Java/jdk-24/bin/gcc-ranlib15"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib15.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib15"
+      - "C:/ffmpeg/bin/gcc-ranlib15.com"
+      - "C:/ffmpeg/bin/gcc-ranlib15.exe"
+      - "C:/ffmpeg/bin/gcc-ranlib15"
+      - "C:/Program Files/dotnet/gcc-ranlib15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib15.com"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib15.exe"
+      - "C:/Users/Asus/AppData/Roaming/npm/gcc-ranlib15"
+      - "C:/MinGW/bin/gcc-ranlib15.com"
+      - "C:/MinGW/bin/gcc-ranlib15.exe"
+      - "C:/MinGW/bin/gcc-ranlib15"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib15.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/gcc-ranlib15"
+      - "c:/raylib/w64devkit/bin/gcc-ranlib.com"
+    found: "C:/raylib/w64devkit/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Java/jdk-24/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Asus/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Asus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Asus/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/raylib/w64devkit/bin/"
+      - "C:/raylib/w64devkit/sbin/"
+      - "C:/raylib/w64devkit/"
+      - "C:/Program Files (x86)/NewGenesis/bin/"
+      - "C:/Program Files (x86)/NewGenesis/sbin/"
+      - "C:/Program Files (x86)/NewGenesis/"
+    searched_directories:
+      - "C:/raylib/w64devkit/bin/windres.com"
+    found: "C:/raylib/w64devkit/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Java\\jdk-24\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Asus\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.3.2.1\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/NewGenesis"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/raylib/w64devkit"
+        - "C:/Program Files (x86)/NewGenesis"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/CMakeScratch/TryCompile-bqyjlz"
+      binary: "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/CMakeScratch/TryCompile-bqyjlz"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Project Code/CPP/Xepaterra/build/CMakeFiles/CMakeScratch/TryCompile-bqyjlz'
+        
+        Run Build Command(s): C:/raylib/w64devkit/bin/ninja.exe -v cmTC_85f96
+        [1/2] c:\\raylib\\w64devkit\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj -c C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /dl/gcc/configure --prefix=/w64devkit --with-sysroot=/w64devkit --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp=/deps --with-mpc=/deps --with-mpfr=/deps --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-libstdcxx-verbose --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-O2 CXXFLAGS_FOR_TARGET=-O2 LDFLAGS_FOR_TARGET=-s CFLAGS=-O2 CXXFLAGS=-O2 LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85f96.dir/'
+         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -isysroot C:/raylib/w64devkit/bin/../../w64devkit -D_REENTRANT C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_85f96.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Asus\\AppData\\Local\\Temp\\ccpeTpnC.s
+        GNU C23 (GCC) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring nonexistent directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include
+        End of search list.
+        Compiler executable checksum: a203bba55305068b78d260e6fc4a55e5
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85f96.dir/'
+         as -v -o CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj C:\\Users\\Asus\\AppData\\Local\\Temp\\ccpeTpnC.s
+        GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46.0.20260210
+        COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../lib/gcc/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && c:\\raylib\\w64devkit\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj -o cmTC_85f96.exe -Wl,--out-implib,libcmTC_85f96.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /dl/gcc/configure --prefix=/w64devkit --with-sysroot=/w64devkit --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp=/deps --with-mpc=/deps --with-mpfr=/deps --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-libstdcxx-verbose --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-O2 CXXFLAGS_FOR_TARGET=-O2 LDFLAGS_FOR_TARGET=-s CFLAGS=-O2 CXXFLAGS=-O2 LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../lib/gcc/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_85f96.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_85f96.'
+         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_85f96.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_85f96.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_85f96.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_85f96.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.46.0.20260210
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_85f96.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_85f96.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include]
+        end of search list found
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include] ==> [C:/raylib/w64devkit/include]
+        implicit include dirs: [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;C:/raylib/w64devkit/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Project Code/CPP/Xepaterra/build/CMakeFiles/CMakeScratch/TryCompile-bqyjlz']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/raylib/w64devkit/bin/ninja.exe -v cmTC_85f96]
+        ignore line: [[1/2] c:\\raylib\\w64devkit\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj -c C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /dl/gcc/configure --prefix=/w64devkit --with-sysroot=/w64devkit --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp=/deps --with-mpc=/deps --with-mpfr=/deps --enable-languages=c c++ fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-libstdcxx-verbose --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-O2 CXXFLAGS_FOR_TARGET=-O2 LDFLAGS_FOR_TARGET=-s CFLAGS=-O2 CXXFLAGS=-O2 LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85f96.dir/']
+        ignore line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -isysroot C:/raylib/w64devkit/bin/../../w64devkit -D_REENTRANT C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_85f96.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Asus\\AppData\\Local\\Temp\\ccpeTpnC.s]
+        ignore line: [GNU C23 (GCC) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: a203bba55305068b78d260e6fc4a55e5]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85f96.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj C:\\Users\\Asus\\AppData\\Local\\Temp\\ccpeTpnC.s]
+        ignore line: [GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46.0.20260210]
+        ignore line: [COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/raylib/w64devkit/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && c:\\raylib\\w64devkit\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj -o cmTC_85f96.exe -Wl --out-implib libcmTC_85f96.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /dl/gcc/configure --prefix=/w64devkit --with-sysroot=/w64devkit --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp=/deps --with-mpc=/deps --with-mpfr=/deps --enable-languages=c c++ fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-libstdcxx-verbose --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-O2 CXXFLAGS_FOR_TARGET=-O2 LDFLAGS_FOR_TARGET=-s CFLAGS=-O2 CXXFLAGS=-O2 LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/raylib/w64devkit/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_85f96.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_85f96.']
+        link line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_85f96.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_85f96.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+          arg [C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
+          arg [--sysroot=C:/raylib/w64devkit/bin/../../w64devkit] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_85f96.exe] ==> ignore
+          arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
+          arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_85f96.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_85f96.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_85f96.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_85f96.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        linker tool for 'C': c:/raylib/w64devkit/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> [C:/raylib/w64devkit/lib/crt2.o]
+        collapse obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+        collapse obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc] ==> [C:/raylib/w64devkit/lib/gcc]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> [C:/raylib/w64devkit/lib]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> [C:/raylib/w64devkit/lib]
+        implicit libs: [mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [C:/raylib/w64devkit/lib/crt2.o;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0;C:/raylib/w64devkit/lib/gcc;C:/raylib/w64devkit/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "c:/raylib/w64devkit/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.46.0.20260210
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/CMakeScratch/TryCompile-thhhc5"
+      binary: "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/CMakeScratch/TryCompile-thhhc5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Project Code/CPP/Xepaterra/build/CMakeFiles/CMakeScratch/TryCompile-thhhc5'
+        
+        Run Build Command(s): C:/raylib/w64devkit/bin/ninja.exe -v cmTC_c32cf
+        [1/2] c:\\raylib\\w64devkit\\bin\\g++.exe   -v -o CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj -c C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /dl/gcc/configure --prefix=/w64devkit --with-sysroot=/w64devkit --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp=/deps --with-mpc=/deps --with-mpfr=/deps --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-libstdcxx-verbose --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-O2 CXXFLAGS_FOR_TARGET=-O2 LDFLAGS_FOR_TARGET=-s CFLAGS=-O2 CXXFLAGS=-O2 LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c32cf.dir/'
+         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -isysroot C:/raylib/w64devkit/bin/../../w64devkit -D_REENTRANT C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c32cf.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Asus\\AppData\\Local\\Temp\\ccmmN4Ok.s
+        GNU C++17 (GCC) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++"
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward"
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring nonexistent directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include
+        End of search list.
+        Compiler executable checksum: 1a45d061e7cbead691cb8bf7a55f39c1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c32cf.dir/'
+         as -v -o CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Asus\\AppData\\Local\\Temp\\ccmmN4Ok.s
+        GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46.0.20260210
+        COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../lib/gcc/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && c:\\raylib\\w64devkit\\bin\\g++.exe  -v -Wl,-v CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_c32cf.exe -Wl,--out-implib,libcmTC_c32cf.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /dl/gcc/configure --prefix=/w64devkit --with-sysroot=/w64devkit --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp=/deps --with-mpc=/deps --with-mpfr=/deps --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-libstdcxx-verbose --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-O2 CXXFLAGS_FOR_TARGET=-O2 LDFLAGS_FOR_TARGET=-s CFLAGS=-O2 CXXFLAGS=-O2 LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../lib/gcc/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c32cf.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c32cf.'
+         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_c32cf.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_c32cf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_c32cf.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_c32cf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.46.0.20260210
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c32cf.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c32cf.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include]
+        end of search list found
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include] ==> [C:/raylib/w64devkit/include]
+        implicit include dirs: [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;C:/raylib/w64devkit/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Project Code/CPP/Xepaterra/build/CMakeFiles/CMakeScratch/TryCompile-thhhc5']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/raylib/w64devkit/bin/ninja.exe -v cmTC_c32cf]
+        ignore line: [[1/2] c:\\raylib\\w64devkit\\bin\\g++.exe   -v -o CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj -c C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /dl/gcc/configure --prefix=/w64devkit --with-sysroot=/w64devkit --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp=/deps --with-mpc=/deps --with-mpfr=/deps --enable-languages=c c++ fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-libstdcxx-verbose --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-O2 CXXFLAGS_FOR_TARGET=-O2 LDFLAGS_FOR_TARGET=-s CFLAGS=-O2 CXXFLAGS=-O2 LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c32cf.dir/']
+        ignore line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -isysroot C:/raylib/w64devkit/bin/../../w64devkit -D_REENTRANT C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c32cf.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Asus\\AppData\\Local\\Temp\\ccmmN4Ok.s]
+        ignore line: [GNU C++17 (GCC) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++"]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring duplicate directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 1a45d061e7cbead691cb8bf7a55f39c1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c32cf.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Asus\\AppData\\Local\\Temp\\ccmmN4Ok.s]
+        ignore line: [GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46.0.20260210]
+        ignore line: [COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/raylib/w64devkit/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && c:\\raylib\\w64devkit\\bin\\g++.exe  -v -Wl -v CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_c32cf.exe -Wl --out-implib libcmTC_c32cf.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /dl/gcc/configure --prefix=/w64devkit --with-sysroot=/w64devkit --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp=/deps --with-mpc=/deps --with-mpfr=/deps --enable-languages=c c++ fortran --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-libstdcxx-verbose --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-O2 CXXFLAGS_FOR_TARGET=-O2 LDFLAGS_FOR_TARGET=-s CFLAGS=-O2 CXXFLAGS=-O2 LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/raylib/w64devkit/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c32cf.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c32cf.']
+        link line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_c32cf.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_c32cf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+          arg [C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
+          arg [--sysroot=C:/raylib/w64devkit/bin/../../w64devkit] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_c32cf.exe] ==> ignore
+          arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
+          arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib]
+          arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_c32cf.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_c32cf.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_c32cf.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_c32cf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        linker tool for 'CXX': c:/raylib/w64devkit/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> [C:/raylib/w64devkit/lib/crt2.o]
+        collapse obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+        collapse obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc] ==> [C:/raylib/w64devkit/lib/gcc]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> [C:/raylib/w64devkit/lib]
+        collapse library dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> [C:/raylib/w64devkit/lib]
+        implicit libs: [stdc++;mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [C:/raylib/w64devkit/lib/crt2.o;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [C:/raylib/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0;C:/raylib/w64devkit/lib/gcc;C:/raylib/w64devkit/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "c:/raylib/w64devkit/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.46.0.20260210
+...
