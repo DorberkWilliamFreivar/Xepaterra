@@ -915,7 +915,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "NewGenesis"
+			"value" : "Xepaterra"
 		},
 		{
 			"name" : "CMAKE_PROJECT_SPDX_LICENSE",
@@ -1347,6 +1347,42 @@
 		},
 		{
 			"name" : "NewGenesis_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Project Code/CPP/Xepaterra"
+		},
+		{
+			"name" : "Xepaterra_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Project Code/CPP/Xepaterra/build"
+		},
+		{
+			"name" : "Xepaterra_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Xepaterra_SOURCE_DIR",
 			"properties" : 
 			[
 				{

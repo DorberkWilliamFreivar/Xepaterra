@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "NewGenesis",
+					"name" : "Xepaterra",
 					"targetIndexes" : 
 					[
 						0
@@ -39,9 +39,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "NewGenesis::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NewGenesis-Debug-6c6ae4c5efb323bc70d1.json",
-					"name" : "NewGenesis",
+					"id" : "Xepaterra::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Xepaterra-Debug-ba706008561a95dbdee8.json",
+					"name" : "Xepaterra",
 					"projectIndex" : 0
 				}
 			]

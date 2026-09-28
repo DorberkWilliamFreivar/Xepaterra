@@ -1,44 +1,44 @@
 [
 {
   "directory": "D:/Project Code/CPP/Xepaterra/build",
-  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\NewGenesis.dir\\src\\main.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\src\\main.cpp\"",
+  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\Xepaterra.dir\\src\\main.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\src\\main.cpp\"",
   "file": "D:/Project Code/CPP/Xepaterra/src/main.cpp",
-  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/NewGenesis.dir/src/main.cpp.obj"
+  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/Xepaterra.dir/src/main.cpp.obj"
 },
 {
   "directory": "D:/Project Code/CPP/Xepaterra/build",
-  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\NewGenesis.dir\\lib\\imgui-master\\imgui.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\lib\\imgui-master\\imgui.cpp\"",
+  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\Xepaterra.dir\\lib\\imgui-master\\imgui.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\lib\\imgui-master\\imgui.cpp\"",
   "file": "D:/Project Code/CPP/Xepaterra/lib/imgui-master/imgui.cpp",
-  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui.cpp.obj"
+  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui.cpp.obj"
 },
 {
   "directory": "D:/Project Code/CPP/Xepaterra/build",
-  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\NewGenesis.dir\\lib\\imgui-master\\imgui_demo.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\lib\\imgui-master\\imgui_demo.cpp\"",
+  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\Xepaterra.dir\\lib\\imgui-master\\imgui_demo.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\lib\\imgui-master\\imgui_demo.cpp\"",
   "file": "D:/Project Code/CPP/Xepaterra/lib/imgui-master/imgui_demo.cpp",
-  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_demo.cpp.obj"
+  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui_demo.cpp.obj"
 },
 {
   "directory": "D:/Project Code/CPP/Xepaterra/build",
-  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\NewGenesis.dir\\lib\\imgui-master\\imgui_draw.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\lib\\imgui-master\\imgui_draw.cpp\"",
+  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\Xepaterra.dir\\lib\\imgui-master\\imgui_draw.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\lib\\imgui-master\\imgui_draw.cpp\"",
   "file": "D:/Project Code/CPP/Xepaterra/lib/imgui-master/imgui_draw.cpp",
-  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_draw.cpp.obj"
+  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui_draw.cpp.obj"
 },
 {
   "directory": "D:/Project Code/CPP/Xepaterra/build",
-  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\NewGenesis.dir\\lib\\imgui-master\\imgui_tables.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\lib\\imgui-master\\imgui_tables.cpp\"",
+  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\Xepaterra.dir\\lib\\imgui-master\\imgui_tables.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\lib\\imgui-master\\imgui_tables.cpp\"",
   "file": "D:/Project Code/CPP/Xepaterra/lib/imgui-master/imgui_tables.cpp",
-  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_tables.cpp.obj"
+  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui_tables.cpp.obj"
 },
 {
   "directory": "D:/Project Code/CPP/Xepaterra/build",
-  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\NewGenesis.dir\\lib\\imgui-master\\imgui_widgets.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\lib\\imgui-master\\imgui_widgets.cpp\"",
+  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\Xepaterra.dir\\lib\\imgui-master\\imgui_widgets.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\lib\\imgui-master\\imgui_widgets.cpp\"",
   "file": "D:/Project Code/CPP/Xepaterra/lib/imgui-master/imgui_widgets.cpp",
-  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_widgets.cpp.obj"
+  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui_widgets.cpp.obj"
 },
 {
   "directory": "D:/Project Code/CPP/Xepaterra/build",
-  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\NewGenesis.dir\\lib\\rlImGui-main\\rlImGui.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\lib\\rlImGui-main\\rlImGui.cpp\"",
+  "command": "c:\\raylib\\w64devkit\\bin\\g++.exe -IC:/raylib/raylib/src -I\"D:/Project Code/CPP/Xepaterra/lib/imgui-master\" -I\"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main\" -g -std=gnu++17 -o CMakeFiles\\Xepaterra.dir\\lib\\rlImGui-main\\rlImGui.cpp.obj -c \"D:\\Project Code\\CPP\\Xepaterra\\lib\\rlImGui-main\\rlImGui.cpp\"",
   "file": "D:/Project Code/CPP/Xepaterra/lib/rlImGui-main/rlImGui.cpp",
-  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/NewGenesis.dir/lib/rlImGui-main/rlImGui.cpp.obj"
+  "output": "D:/Project Code/CPP/Xepaterra/build/CMakeFiles/Xepaterra.dir/lib/rlImGui-main/rlImGui.cpp.obj"
 }
 ]

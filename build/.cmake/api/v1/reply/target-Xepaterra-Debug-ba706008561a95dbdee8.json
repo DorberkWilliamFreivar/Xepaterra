@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "NewGenesis.exe"
+			"path" : "Xepaterra.exe"
 		},
 		{
-			"path" : "NewGenesis.pdb"
+			"path" : "Xepaterra.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -103,7 +103,7 @@
 			]
 		}
 	],
-	"id" : "NewGenesis::@6890427a1f51a3e7e1df",
+	"id" : "Xepaterra::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -163,8 +163,8 @@
 			"fragment" : "winmm"
 		}
 	],
-	"name" : "NewGenesis",
-	"nameOnDisk" : "NewGenesis.exe",
+	"name" : "Xepaterra",
+	"nameOnDisk" : "Xepaterra.exe",
 	"paths" : 
 	{
 		"build" : ".",

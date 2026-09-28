@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: NewGenesis
+# Project: Xepaterra
 # Configurations: Debug
 # =============================================================================
 
@@ -41,97 +41,97 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/Project$ Code/CPP/Xepaterra/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target NewGenesis
+# Object build statements for EXECUTABLE target Xepaterra
 
 
 #############################################
-# Order-only phony target for NewGenesis
+# Order-only phony target for Xepaterra
 
-build cmake_object_order_depends_target_NewGenesis: phony || .
+build cmake_object_order_depends_target_Xepaterra: phony || .
 
-build CMakeFiles/NewGenesis.dir/src/main.cpp.obj: CXX_COMPILER__NewGenesis_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/src/main.cpp || cmake_object_order_depends_target_NewGenesis
+build CMakeFiles/Xepaterra.dir/src/main.cpp.obj: CXX_COMPILER__Xepaterra_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/src/main.cpp || cmake_object_order_depends_target_Xepaterra
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\NewGenesis.dir\src\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\Xepaterra.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -IC:/raylib/raylib/src -I"D:/Project Code/CPP/Xepaterra/lib/imgui-master" -I"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main"
-  OBJECT_DIR = CMakeFiles\NewGenesis.dir
-  OBJECT_FILE_DIR = CMakeFiles\NewGenesis.dir\src
-  TARGET_SUPPORT_DIR = CMakeFiles\NewGenesis.dir
+  OBJECT_DIR = CMakeFiles\Xepaterra.dir
+  OBJECT_FILE_DIR = CMakeFiles\Xepaterra.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\Xepaterra.dir
 
-build CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui.cpp.obj: CXX_COMPILER__NewGenesis_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/lib/imgui-master/imgui.cpp || cmake_object_order_depends_target_NewGenesis
+build CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui.cpp.obj: CXX_COMPILER__Xepaterra_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/lib/imgui-master/imgui.cpp || cmake_object_order_depends_target_Xepaterra
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\NewGenesis.dir\lib\imgui-master\imgui.cpp.obj.d
+  DEP_FILE = CMakeFiles\Xepaterra.dir\lib\imgui-master\imgui.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -IC:/raylib/raylib/src -I"D:/Project Code/CPP/Xepaterra/lib/imgui-master" -I"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main"
-  OBJECT_DIR = CMakeFiles\NewGenesis.dir
-  OBJECT_FILE_DIR = CMakeFiles\NewGenesis.dir\lib\imgui-master
-  TARGET_SUPPORT_DIR = CMakeFiles\NewGenesis.dir
+  OBJECT_DIR = CMakeFiles\Xepaterra.dir
+  OBJECT_FILE_DIR = CMakeFiles\Xepaterra.dir\lib\imgui-master
+  TARGET_SUPPORT_DIR = CMakeFiles\Xepaterra.dir
 
-build CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_demo.cpp.obj: CXX_COMPILER__NewGenesis_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/lib/imgui-master/imgui_demo.cpp || cmake_object_order_depends_target_NewGenesis
+build CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui_demo.cpp.obj: CXX_COMPILER__Xepaterra_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/lib/imgui-master/imgui_demo.cpp || cmake_object_order_depends_target_Xepaterra
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\NewGenesis.dir\lib\imgui-master\imgui_demo.cpp.obj.d
+  DEP_FILE = CMakeFiles\Xepaterra.dir\lib\imgui-master\imgui_demo.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -IC:/raylib/raylib/src -I"D:/Project Code/CPP/Xepaterra/lib/imgui-master" -I"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main"
-  OBJECT_DIR = CMakeFiles\NewGenesis.dir
-  OBJECT_FILE_DIR = CMakeFiles\NewGenesis.dir\lib\imgui-master
-  TARGET_SUPPORT_DIR = CMakeFiles\NewGenesis.dir
+  OBJECT_DIR = CMakeFiles\Xepaterra.dir
+  OBJECT_FILE_DIR = CMakeFiles\Xepaterra.dir\lib\imgui-master
+  TARGET_SUPPORT_DIR = CMakeFiles\Xepaterra.dir
 
-build CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_draw.cpp.obj: CXX_COMPILER__NewGenesis_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/lib/imgui-master/imgui_draw.cpp || cmake_object_order_depends_target_NewGenesis
+build CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui_draw.cpp.obj: CXX_COMPILER__Xepaterra_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/lib/imgui-master/imgui_draw.cpp || cmake_object_order_depends_target_Xepaterra
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\NewGenesis.dir\lib\imgui-master\imgui_draw.cpp.obj.d
+  DEP_FILE = CMakeFiles\Xepaterra.dir\lib\imgui-master\imgui_draw.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -IC:/raylib/raylib/src -I"D:/Project Code/CPP/Xepaterra/lib/imgui-master" -I"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main"
-  OBJECT_DIR = CMakeFiles\NewGenesis.dir
-  OBJECT_FILE_DIR = CMakeFiles\NewGenesis.dir\lib\imgui-master
-  TARGET_SUPPORT_DIR = CMakeFiles\NewGenesis.dir
+  OBJECT_DIR = CMakeFiles\Xepaterra.dir
+  OBJECT_FILE_DIR = CMakeFiles\Xepaterra.dir\lib\imgui-master
+  TARGET_SUPPORT_DIR = CMakeFiles\Xepaterra.dir
 
-build CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_tables.cpp.obj: CXX_COMPILER__NewGenesis_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/lib/imgui-master/imgui_tables.cpp || cmake_object_order_depends_target_NewGenesis
+build CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui_tables.cpp.obj: CXX_COMPILER__Xepaterra_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/lib/imgui-master/imgui_tables.cpp || cmake_object_order_depends_target_Xepaterra
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\NewGenesis.dir\lib\imgui-master\imgui_tables.cpp.obj.d
+  DEP_FILE = CMakeFiles\Xepaterra.dir\lib\imgui-master\imgui_tables.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -IC:/raylib/raylib/src -I"D:/Project Code/CPP/Xepaterra/lib/imgui-master" -I"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main"
-  OBJECT_DIR = CMakeFiles\NewGenesis.dir
-  OBJECT_FILE_DIR = CMakeFiles\NewGenesis.dir\lib\imgui-master
-  TARGET_SUPPORT_DIR = CMakeFiles\NewGenesis.dir
+  OBJECT_DIR = CMakeFiles\Xepaterra.dir
+  OBJECT_FILE_DIR = CMakeFiles\Xepaterra.dir\lib\imgui-master
+  TARGET_SUPPORT_DIR = CMakeFiles\Xepaterra.dir
 
-build CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_widgets.cpp.obj: CXX_COMPILER__NewGenesis_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/lib/imgui-master/imgui_widgets.cpp || cmake_object_order_depends_target_NewGenesis
+build CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui_widgets.cpp.obj: CXX_COMPILER__Xepaterra_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/lib/imgui-master/imgui_widgets.cpp || cmake_object_order_depends_target_Xepaterra
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\NewGenesis.dir\lib\imgui-master\imgui_widgets.cpp.obj.d
+  DEP_FILE = CMakeFiles\Xepaterra.dir\lib\imgui-master\imgui_widgets.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -IC:/raylib/raylib/src -I"D:/Project Code/CPP/Xepaterra/lib/imgui-master" -I"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main"
-  OBJECT_DIR = CMakeFiles\NewGenesis.dir
-  OBJECT_FILE_DIR = CMakeFiles\NewGenesis.dir\lib\imgui-master
-  TARGET_SUPPORT_DIR = CMakeFiles\NewGenesis.dir
+  OBJECT_DIR = CMakeFiles\Xepaterra.dir
+  OBJECT_FILE_DIR = CMakeFiles\Xepaterra.dir\lib\imgui-master
+  TARGET_SUPPORT_DIR = CMakeFiles\Xepaterra.dir
 
-build CMakeFiles/NewGenesis.dir/lib/rlImGui-main/rlImGui.cpp.obj: CXX_COMPILER__NewGenesis_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/lib/rlImGui-main/rlImGui.cpp || cmake_object_order_depends_target_NewGenesis
+build CMakeFiles/Xepaterra.dir/lib/rlImGui-main/rlImGui.cpp.obj: CXX_COMPILER__Xepaterra_unscanned_Debug D$:/Project$ Code/CPP/Xepaterra/lib/rlImGui-main/rlImGui.cpp || cmake_object_order_depends_target_Xepaterra
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\NewGenesis.dir\lib\rlImGui-main\rlImGui.cpp.obj.d
+  DEP_FILE = CMakeFiles\Xepaterra.dir\lib\rlImGui-main\rlImGui.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -IC:/raylib/raylib/src -I"D:/Project Code/CPP/Xepaterra/lib/imgui-master" -I"D:/Project Code/CPP/Xepaterra/lib/rlImGui-main"
-  OBJECT_DIR = CMakeFiles\NewGenesis.dir
-  OBJECT_FILE_DIR = CMakeFiles\NewGenesis.dir\lib\rlImGui-main
-  TARGET_SUPPORT_DIR = CMakeFiles\NewGenesis.dir
+  OBJECT_DIR = CMakeFiles\Xepaterra.dir
+  OBJECT_FILE_DIR = CMakeFiles\Xepaterra.dir\lib\rlImGui-main
+  TARGET_SUPPORT_DIR = CMakeFiles\Xepaterra.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target NewGenesis
+# Link build statements for EXECUTABLE target Xepaterra
 
 
 #############################################
-# Link the executable NewGenesis.exe
+# Link the executable Xepaterra.exe
 
-build NewGenesis.exe: CXX_EXECUTABLE_LINKER__NewGenesis_Debug CMakeFiles/NewGenesis.dir/src/main.cpp.obj CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui.cpp.obj CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_demo.cpp.obj CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_draw.cpp.obj CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_tables.cpp.obj CMakeFiles/NewGenesis.dir/lib/imgui-master/imgui_widgets.cpp.obj CMakeFiles/NewGenesis.dir/lib/rlImGui-main/rlImGui.cpp.obj
+build Xepaterra.exe: CXX_EXECUTABLE_LINKER__Xepaterra_Debug CMakeFiles/Xepaterra.dir/src/main.cpp.obj CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui.cpp.obj CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui_demo.cpp.obj CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui_draw.cpp.obj CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui_tables.cpp.obj CMakeFiles/Xepaterra.dir/lib/imgui-master/imgui_widgets.cpp.obj CMakeFiles/Xepaterra.dir/lib/rlImGui-main/rlImGui.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lraylib  -lopengl32  -lgdi32  -lwinmm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LC:/raylib/raylib/src
-  OBJECT_DIR = CMakeFiles\NewGenesis.dir
+  OBJECT_DIR = CMakeFiles\Xepaterra.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = NewGenesis.exe
-  TARGET_IMPLIB = libNewGenesis.dll.a
-  TARGET_PDB = NewGenesis.exe.dbg
-  TARGET_SUPPORT_DIR = CMakeFiles\NewGenesis.dir
+  TARGET_FILE = Xepaterra.exe
+  TARGET_IMPLIB = libXepaterra.dll.a
+  TARGET_PDB = Xepaterra.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\Xepaterra.dir
 
 
 #############################################
@@ -160,7 +160,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build NewGenesis: phony NewGenesis.exe
+build Xepaterra: phony Xepaterra.exe
 
 # =============================================================================
 # Folder targets.
@@ -170,7 +170,7 @@ build NewGenesis: phony NewGenesis.exe
 #############################################
 # Folder: D:/Project Code/CPP/Xepaterra/build
 
-build all: phony NewGenesis.exe
+build all: phony Xepaterra.exe
 
 # =============================================================================
 # Built-in targets
